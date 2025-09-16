@@ -16,3 +16,8 @@ db.sqlite3
 # VS Code / IDE
 .vscode/
 .idea/
+
+# Ignore generated static and runtime media
+staticfiles/
+media/
+
