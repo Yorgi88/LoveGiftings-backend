@@ -1967,6 +1967,13 @@ this will help us when we want to configure postgres on render
 
 next we push to github
 
+we successfully pushed the backend side of things to github
+
+-- lets move to push the frontend side of things
+
+
+
+
 
 
 
