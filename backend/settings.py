@@ -45,7 +45,8 @@ DEBUG = True
 
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "lovegiftings-backend.onrender.com"]
+# ALLOWED_HOSTS = ["localhost", "127.0.0.1", "lovegiftings-backend.onrender.com"]
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1", "lovegiftings-backend.onrender.com"])
 
 
 
