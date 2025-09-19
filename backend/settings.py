@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 import environ
 from dotenv import load_dotenv
-
+import dj_database_url
 # load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 # env = environ.Env()
 
@@ -108,12 +108,15 @@ DATABASES = {
 }
 
 
+
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 
 
 # Password validation
@@ -171,7 +174,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-  
+    "https://lovegiftings-frontend.onrender.com",
 
 ]
 
